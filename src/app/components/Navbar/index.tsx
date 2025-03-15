@@ -14,7 +14,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="items-center relative flex gap-1 rounded-full border border-[#E5E5E5] justify-between py-1 px-1 mx-auto my-6 max-w-96 lg:text-xl lg:w-md lg:p-2 lg:max-w">
+    <nav className="items-center relative flex gap-1 rounded-full border border-[#E5E5E5] justify-between py-1 px-1 mx-auto my-6 max-w-96 lg:text-xl lg:w-md lg:p-2 lg:max-w-md">
       {navLinks.map(({ href, label }) => {
         const isActive = pathname === href;
 
