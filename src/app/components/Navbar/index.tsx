@@ -14,7 +14,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="items-center relative flex gap-1 rounded-full border border-[#E5E5E5] justify-between py-1 px-1 mx-auto my-6 max-w-96 lg:text-xl lg:w-md lg:p-2 lg:max-w-md">
+    <nav className="items-center relative flex gap-1 rounded-full border border-[#E5E5E5] justify-between py-1 px-1 mx-auto my-6 max-w-96 md:text-xl md:w-md md:p-2 md:max-w-md">
       {navLinks.map(({ href, label }) => {
         const isActive = pathname === href;
 
@@ -24,7 +24,7 @@ const Navbar = () => {
               <motion.div
                 layoutId="active"
                 className="absolute inset-0 bg-[var(--text-default)] rounded-full"
-                transition={{ type: "spring", stiffness: 200, damping: 40 }}
+                transition={{ type: "spring", stiffness: 200, damping: 30 }}
               />
             )}
             <span
