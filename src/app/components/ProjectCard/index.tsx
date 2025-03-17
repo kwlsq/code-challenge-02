@@ -11,6 +11,7 @@ interface ProjectCardType {
   tags: string[];
   href: string;
   emoji?: string;
+  containerWidth?: string;
 }
 
 const ProjectCard: FC<ProjectCardType> = ({
@@ -21,9 +22,12 @@ const ProjectCard: FC<ProjectCardType> = ({
   tags,
   emoji,
   description,
+  containerWidth,
 }) => {
   return (
-    <div className="flex flex-col rounded-2xl bg-[#FFFFFE] py-3 md:py-6 md:px-8 px-6 gap-5 border-2 border-[var(--border-grey)] md:w-1/2">
+    <div
+      className={`flex flex-col rounded-2xl bg-[#FFFFFE] py-3 md:py-6 md:px-8 px-6 gap-5 border-2 border-[var(--border-grey)] md:${containerWidth}`}
+    >
       <div className="flex justify-between">
         <div className="text-4xl font-bold">{title}</div>
         <Link
@@ -46,7 +50,7 @@ const ProjectCard: FC<ProjectCardType> = ({
             width={200}
             src={imgSrc}
             alt={imgAlt ?? ""}
-            className="w-full h-max-[240px] rounded-xl"
+            className="object-cover w-full max-h-[240px] rounded-xl"
           />
         </div>
       ) : (

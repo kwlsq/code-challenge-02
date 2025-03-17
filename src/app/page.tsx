@@ -35,6 +35,7 @@ export default function Home() {
             emoji="💡"
             description="Developed a SaaS-based analytics dashboard for Insightly, focusing on providing actionable insights through a user-centric design. The dashboard improved data accessibility and was adopted by 80% of users within the first three months."
             tags={["Web 3.0", "HTML", "Dashboard"]}
+            containerWidth="w-1/2"
           />
           <ProjectCard
             title="ShopEase"
@@ -42,6 +43,7 @@ export default function Home() {
             imgSrc="/img/ShopEase_thumbnail.webp"
             imgAlt="ShopEase thumbnail"
             tags={["Mobile", "Application", "E-Commerce"]}
+            containerWidth="w-1/2"
           />
         </div>
       </main>
