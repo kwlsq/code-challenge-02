@@ -14,7 +14,7 @@ const PageHeadline: FC<PageHeadLineType> = ({ headline, description }) => {
       ></h1>
       <p
         dangerouslySetInnerHTML={{ __html: description }}
-        className="text-[var(--text-secondary)] text-2xl md:text-4xl"
+        className="text-[var(--text-secondary)] text-2xl md:text-4xl leading-10 md:leading-16"
       ></p>
     </div>
   );

@@ -12,7 +12,7 @@ const ArticleCard: FC<ArticleCardType> = ({ title, description }) => {
         {title}
       </div>
       <div
-        className="text-[var(--text-secondary)] text-xl"
+        className="text-[var(--text-secondary)] text-xl leading-8"
         dangerouslySetInnerHTML={{ __html: description }}
       ></div>
     </div>
