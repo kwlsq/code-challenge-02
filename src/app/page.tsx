@@ -15,7 +15,7 @@ export default function Home() {
           title="About Me"
           imgSrc="/img/about_me.jpg"
           imgAlt="image of a girl to represent about me"
-          description="I’m a UI/UX designer with a passion for solving complex problems through intuitive design. My journey started 5 years ago, and since then, I've worked with startups and established brands to bring their visions to life. <br/><br/>Over the years, I've had the privilege of working with companies like ShopEase, FinTrack, and Insightly, focusing on user-centric design solutions."
+          description="I’m a UI/UX designer with a passion for solving complex problems<br/>through intuitive design. My journey started 5 years ago, and since then, <br/>I've worked with startups and established brands to bring their visions to <br/>life. <br/><br/>Over the years, I've had the privilege of working with companies like <br/>ShopEase, FinTrack, and Insightly, focusing on user-centric design <br/>solutions."
         />
       </main>
     </div>
