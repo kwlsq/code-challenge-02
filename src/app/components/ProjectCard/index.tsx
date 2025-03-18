@@ -24,9 +24,10 @@ const ProjectCard: FC<ProjectCardType> = ({
   description,
   containerWidth,
 }) => {
+  console.log(containerWidth);
   return (
     <div
-      className={`flex flex-col rounded-2xl bg-[#FFFFFE] py-3 md:py-6 md:px-8 px-6 gap-5 border-2 border-[var(--border-grey)] md:${containerWidth}`}
+      className={`flex flex-col rounded-2xl bg-[#FFFFFE] py-3 md:py-6 md:px-8 px-6 gap-5 border-2 border-[var(--border-grey)] ${containerWidth}`}
     >
       <div className="flex justify-between">
         <div className="text-4xl font-bold">{title}</div>
