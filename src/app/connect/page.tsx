@@ -11,7 +11,7 @@ const ConnectPage = () => {
           headline="<b>Connect</b>"
           description="I’m always open to new opportunities and collaborations. Whether you’re looking to start a project or just want to chat, feel free to reach out."
         />
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-5 md:grid md:grid-cols-2">
           <SocialMediaBtn
             imgAlt="Instagram logo"
             imgSrc="/icons/ic_instagram.svg"
