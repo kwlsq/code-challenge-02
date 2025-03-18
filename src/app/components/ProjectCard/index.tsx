@@ -44,7 +44,7 @@ const ProjectCard: FC<ProjectCardType> = ({
       >
         <div className="flex justify-between">
           <div className="text-4xl font-bold">{title}</div>
-          <div className="flex items-center w-12 h-12 p-2 border-3 border-[#F5F5F5] rounded-full">
+          <div className="flex items-center w-12 h-12 p-2 border-3 border-[#F5F5F5] bg-white rounded-full">
             <motion.div
               animate={{ rotate: isHovered ? -45 : 0 }}
               transition={{ duration: 0.2, ease: "easeOut" }}
