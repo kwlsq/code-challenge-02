@@ -6,9 +6,9 @@ import ProjectCard from "./components/ProjectCard";
 
 export default function Home() {
   return (
-    <div className="mx-5 md:mx-14">
+    <div className="mx-5 md:mx-14 mb-15">
       <Navbar />
-      <main className="flex flex-col gap-6 md:gap-8 py-5 pb-15">
+      <main className="flex flex-col gap-6 md:gap-8 py-5 ">
         <PageHeadline
           headline="Hi, I’m <b>Alex</b>"
           description="a <b>UI/UX Designer</b> based in <b>Los Angeles</b>. With over <b>3 years of experience</b>, I specialize in creating user-friendly digital products that solve real-world problems."
