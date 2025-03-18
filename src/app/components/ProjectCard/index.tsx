@@ -11,7 +11,7 @@ interface ProjectCardType {
   tags: string[];
   href: string;
   emoji?: string;
-  containerWidth?: string;
+  containerWidth: string;
 }
 
 const ProjectCard: FC<ProjectCardType> = ({
