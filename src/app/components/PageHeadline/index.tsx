@@ -7,7 +7,7 @@ interface PageHeadLineType {
 
 const PageHeadline: FC<PageHeadLineType> = ({ headline, description }) => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-16">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-16 mx-2">
       <h1
         dangerouslySetInnerHTML={{ __html: headline }}
         className="text-[var(--text-default)] text-4xl md:text-6xl"

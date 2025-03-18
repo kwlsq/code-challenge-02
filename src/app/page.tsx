@@ -18,12 +18,13 @@ export default function Home() {
             <Image
               height={100}
               width={200}
-              src="/img/about_me.jpg"
+              src="/img/about_me.webp"
               alt="image of a girl to represent about me"
               className="object-cover object-top w-full h-[536px] md:max-h-[359px] rounded-2xl"
             />
           </div>
           <ArticleCard
+            className="md:w-3/4"
             title="About Me"
             description="I’m a UI/UX designer with a passion for solving complex problemsthrough intuitive design. My journey started 5 years ago, and since then, I've worked with startups and established brands to bring their visions to life. <br/><br/>Over the years, I've had the privilege of working with companies like ShopEase, FinTrack, and Insightly, focusing on user-centric design solutions."
           />
