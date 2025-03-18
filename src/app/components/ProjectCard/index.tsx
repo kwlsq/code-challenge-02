@@ -39,7 +39,7 @@ const ProjectCard: FC<ProjectCardType> = ({
         animate={{
           backgroundColor: isHovered ? "#E5E5E5" : "#FFFFFE",
         }}
-        transition={{ duration: 0.15, ease: "easeOut" }} 
+        transition={{ duration: 0.2, ease: "easeOut" }}
         className={`flex flex-col justify-between rounded-2xl py-3 md:py-6 md:px-8 px-6 gap-5 border-2 border-[var(--border-grey)] transition-all duration-300 ${containerWidth}`}
       >
         <div className="flex justify-between">
@@ -47,7 +47,7 @@ const ProjectCard: FC<ProjectCardType> = ({
           <div className="flex items-center w-12 h-12 p-2 border-3 border-[#F5F5F5] rounded-full">
             <motion.div
               animate={{ rotate: isHovered ? -45 : 0 }}
-              transition={{ duration: 0.1, ease: "easeOut" }}
+              transition={{ duration: 0.2, ease: "easeOut" }}
               className="w-12 h-12"
             >
               <Image
