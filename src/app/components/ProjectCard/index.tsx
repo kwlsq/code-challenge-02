@@ -7,6 +7,7 @@ interface ProjectCardType {
   title: string;
   description?: string;
   imgSrc?: string;
+  maxImgHeight?: string;
   imgAlt?: string;
   tags: string[];
   href: string;
@@ -19,6 +20,7 @@ const ProjectCard: FC<ProjectCardType> = ({
   href,
   imgSrc,
   imgAlt,
+  maxImgHeight,
   tags,
   emoji,
   description,
@@ -27,7 +29,7 @@ const ProjectCard: FC<ProjectCardType> = ({
   console.log(containerWidth);
   return (
     <div
-      className={`flex flex-col rounded-2xl bg-[#FFFFFE] py-3 md:py-6 md:px-8 px-6 gap-5 border-2 border-[var(--border-grey)] ${containerWidth}`}
+      className={`flex flex-col justify-between rounded-2xl bg-[#FFFFFE] py-3 md:py-6 md:px-8 px-6 gap-5 border-2 border-[var(--border-grey)] ${containerWidth}`}
     >
       <div className="flex justify-between">
         <div className="text-4xl font-bold">{title}</div>
@@ -47,11 +49,11 @@ const ProjectCard: FC<ProjectCardType> = ({
       {imgSrc ? (
         <div>
           <Image
-            height={150}
-            width={200}
+            height={500}
+            width={500}
             src={imgSrc}
             alt={imgAlt ?? ""}
-            className="object-cover w-full max-h-[240px] rounded-xl"
+            className={`object-cover w-full ${maxImgHeight} rounded-xl`}
           />
         </div>
       ) : (
