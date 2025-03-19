@@ -16,11 +16,11 @@
             "thumbnail_img_alt": "thumbnail of shopease website",
             "thumbnail_img_src": "/img/ShopEase_thumbnail.webp",
             "max_img_height": "max-h-[240px]",
-            "showcase_img_src": "",
-            "showcase_img_alt": "",
+            "showcase_img_src": "/img/shopease_img_1.webp",
+            "showcase_img_alt": "showcase of shopease project",
             "outcome_description": "Designing a complex data visualization system that remained easy to navigate.",
-            "outcome_img_src": "",
-            "outcome_img_alt": "",
+            "outcome_img_src": "/img/shopease_img_2.webp",
+            "outcome_img_alt": "outcome of the shopease project",
             "container_width": "md:col-span-3"
         },
         {
@@ -38,11 +38,11 @@
             "challenges": "Creating a seamless multi-device shopping experience while maintaining brand consistency.",
             "thumbnail_img_alt": "",
             "thumbnail_img_src": "",
-            "showcase_img_src": "",
-            "showcase_img_alt": "",
+            "showcase_img_src": "/img/insightly_img_1.webp",
+            "showcase_img_alt": "showcase of Insightly project",
             "outcome_description": "Designing a complex data visualization system that remained easy to navigate.",
-            "outcome_img_src": "",
-            "outcome_img_alt": "",
+            "outcome_img_src": "/img/insightly_img_2.webp",
+            "outcome_img_alt": "outcome of the Insightly project",
             "container_width": "md:col-span-3"
         },
         {
@@ -60,11 +60,11 @@
             "challenges": "Balancing complex financial data visualization with user accessibility.",
             "thumbnail_img_alt": "",
             "thumbnail_img_src": "",
-            "showcase_img_src": "",
-            "showcase_img_alt": "",
+            "showcase_img_src": "/img/fintrack_img_1.webp",
+            "showcase_img_alt": "showcase of fintrack project",
             "outcome_description": "Delivered a clean and intuitive design that facilitated easier financial tracking and planning for users.",
-            "outcome_img_src": "",
-            "outcome_img_alt": "",
+            "outcome_img_src": "/img/fintrack_img_2.webp",
+            "outcome_img_alt": "outcome of fintrack project",
             "container_width": "md:col-span-2"
         },
         {
@@ -83,11 +83,11 @@
             "thumbnail_img_alt": "thumbnail of ConnectMe website",
             "thumbnail_img_src": "/img/ConnectMe_thumbnail.webp",
             "max_img_height": "max-h-[272px]",
-            "showcase_img_src": "",
-            "showcase_img_alt": "",
+            "showcase_img_src": "/img/connectme_img_1.webp",
+            "showcase_img_alt": "showcase of connectme project",
             "outcome_description": "Successfully launched the platform, with user retention rates exceeding 80% in the first six months.",
-            "outcome_img_src": "",
-            "outcome_img_alt": "",
+            "outcome_img_src": "/img/connectme_img_2.webp",
+            "outcome_img_alt": "outcome of connectme project",
             "container_width": "md:col-span-4"
         }
     ]

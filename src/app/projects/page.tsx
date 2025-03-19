@@ -4,7 +4,7 @@ import ProjectsContainer from "../components/ProjectsContainer";
 
 const ProjectsPage = () => {
   return (
-    <div className="mx-5 md:mx-14">
+    <div className="mx-5 md:mx-16">
       <Navbar />
       <main className="flex flex-col gap-6 md:gap-8 py-5 ">
         <PageHeadline

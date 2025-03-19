@@ -6,7 +6,7 @@ import ProjectsContainer from "./components/ProjectsContainer";
 
 export default function Home() {
   return (
-    <div className="mx-5 md:mx-14 mb-15">
+    <div className="mx-5 md:mx-16 mb-15">
       <Navbar />
       <main className="flex flex-col gap-6 md:gap-8 py-5 ">
         <PageHeadline

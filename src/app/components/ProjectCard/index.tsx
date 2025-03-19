@@ -77,7 +77,9 @@ const ProjectCard: FC<ProjectCardType> = ({
             </div>
           </div>
         )}
-        {tags.length > 0 ? <TagRibbon tags={tags} /> : null}
+        {tags.length > 0 ? (
+          <TagRibbon tags={tags} bgColor="bg-[var(--default-hover)]" />
+        ) : null}
       </motion.a>
     </Link>
   );

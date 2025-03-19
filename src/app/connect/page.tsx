@@ -4,7 +4,7 @@ import SocialMediaBtn from "../components/SocialMediaBtn";
 
 const ConnectPage = () => {
   return (
-    <div className="mx-5 md:mx-14 mb-15">
+    <div className="mx-5 md:mx-16 mb-15">
       <Navbar />
       <main>
         <PageHeadline

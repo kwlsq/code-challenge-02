@@ -5,7 +5,7 @@ import PageHeadline from "../components/PageHeadline";
 
 const AboutPage = () => {
   return (
-    <div className="mx-5 md:mx-14">
+    <div className="mx-5 md:mx-16">
       <Navbar />
       <main className="flex flex-col gap-4 mb-15">
         <PageHeadline

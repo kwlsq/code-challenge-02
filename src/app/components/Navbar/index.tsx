@@ -16,7 +16,9 @@ const Navbar = () => {
   return (
     <nav className="items-center relative flex gap-0.5 rounded-full border text-sm border-[#E5E5E5] justify-between py-1 px-1 mx-auto my-6 max-w-96 md:text-xl md:w-md md:p-2 md:max-w-md">
       {navLinks.map(({ href, label }) => {
-        const isActive = pathname === href;
+        const isActive =
+          pathname === href ||
+          (href === "/projects" && pathname.startsWith("/projects"));
 
         return (
           <Link key={href} href={href} className="relative px-4 py-2">
