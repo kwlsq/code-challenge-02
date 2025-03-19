@@ -7,7 +7,7 @@ const AboutPage = () => {
   return (
     <div className="mx-5 md:mx-16">
       <Navbar />
-      <main className="flex flex-col gap-4 mb-15">
+      <main className="flex flex-col gap-4 md:gap-8 md:py-5 mb-15">
         <PageHeadline
           headline="<b>About</b> Alex"
           description="With 5+ years in design, I've worked on diverse projects, from mobile apps to web platforms, focusing on user-centered designs that are both visually appealing and practical."

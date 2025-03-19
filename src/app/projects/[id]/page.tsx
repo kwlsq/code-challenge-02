@@ -32,7 +32,7 @@ const ProjectDetails = () => {
   return (
     <div className="mx-5 md:mx-16">
       <Navbar />
-      <main className="flex flex-col gap-6 md:gap-8 py-5">
+      <main className="flex flex-col gap-4 md:gap-8 md:py-5 mb-15">
         <PrevPageBtn />
         <div className="flex flex-col md:flex-row md:justify-between gap-4 md:gap-16">
           <div className="md:w-1/3 flex flex-col gap-4 md:order-1 order-2">
