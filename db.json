@@ -3,6 +3,8 @@
         {
             "id": "1",
             "project_name": "ShopEase Redesign",
+            "thumbnail_name": "ShopEase",
+            "thumbnail_description": "",
             "emoji": "🛍️",
             "description": "Led a comprehensive UI/UX redesign for ShopEase, an online retail platform, aiming to enhance user engagement and streamline the shopping experience. The redesign resulted in a 25% increase in user retention and a 15% boost in sales conversion.",
             "tags": [
@@ -11,15 +13,21 @@
                 "E-commerce"
             ],
             "challenges": "Creating a seamless multi-device shopping experience while maintaining brand consistency.",
+            "thumbnail_img_alt": "thumbnail of shopease website",
+            "thumbnail_img_src": "/img/ShopEase_thumbnail.webp",
+            "max_img_height": "max-h-[240px]",
             "showcase_img_src": "",
             "showcase_img_alt": "",
             "outcome_description": "Designing a complex data visualization system that remained easy to navigate.",
             "outcome_img_src": "",
-            "outcome_img_alt": ""
+            "outcome_img_alt": "",
+            "container_width": "md:col-span-3"
         },
         {
             "id": "2",
             "project_name": "Insightly Analytics Dashboard",
+            "thumbnail_name": "Insightly",
+            "thumbnail_description": "Developed a SaaS-based analytics dashboard for Insightly, focusing on providing actionable insights through a user-centric design. The dashboard improved data accessibility and was adopted by 80% of users within the first three months.",
             "emoji": "💡",
             "description": "Developed a SaaS-based analytics dashboard for Insightly, focusing on providing actionable insights through a user-centric design. The dashboard improved data accessibility and was adopted by 80% of users within the first three months.",
             "tags": [
@@ -28,15 +36,20 @@
                 "Dashboard"
             ],
             "challenges": "Creating a seamless multi-device shopping experience while maintaining brand consistency.",
+            "thumbnail_img_alt": "",
+            "thumbnail_img_src": "",
             "showcase_img_src": "",
             "showcase_img_alt": "",
             "outcome_description": "Designing a complex data visualization system that remained easy to navigate.",
             "outcome_img_src": "",
-            "outcome_img_alt": ""
+            "outcome_img_alt": "",
+            "container_width": "md:col-span-3"
         },
         {
             "id": "3",
             "project_name": "FinTrack Mobile App",
+            "thumbnail_name": "FinTrack",
+            "thumbnail_description": "Designed and developed the UI/UX for FinTrack, a mobile banking application focused on financial management. The app's intuitive interface led to a 30% increase in daily active users and improved user satisfaction scores by 22%.",
             "emoji": "🌱",
             "description": "Designed and developed the UI/UX for FinTrack, a mobile banking application focused on financial management. The app's intuitive interface led to a 30% increase in daily active users and improved user satisfaction scores by 22%.",
             "tags": [
@@ -45,15 +58,20 @@
                 "Finance"
             ],
             "challenges": "Balancing complex financial data visualization with user accessibility.",
+            "thumbnail_img_alt": "",
+            "thumbnail_img_src": "",
             "showcase_img_src": "",
             "showcase_img_alt": "",
             "outcome_description": "Delivered a clean and intuitive design that facilitated easier financial tracking and planning for users.",
             "outcome_img_src": "",
-            "outcome_img_alt": ""
+            "outcome_img_alt": "",
+            "container_width": "md:col-span-2"
         },
         {
             "id": "4",
             "project_name": "ConnectMe Social Network",
+            "thumbnail_name": "ConnectMe",
+            "thumbnail_description": "",
             "emoji": "✨️",
             "description": "Worked on the UI/UX design for ConnectMe, a new social networking platform that aimed to foster meaningful connections. The design focused on simplifying the user journey, leading to a 50% increase in user registrations and a 35% increase in daily active users.",
             "tags": [
@@ -62,11 +80,15 @@
                 "Social"
             ],
             "challenges": "Creating an engaging and intuitive interface that encourages user interaction.",
+            "thumbnail_img_alt": "thumbnail of ConnectMe website",
+            "thumbnail_img_src": "/img/ConnectMe_thumbnail.webp",
+            "max_img_height": "max-h-[272px]",
             "showcase_img_src": "",
             "showcase_img_alt": "",
             "outcome_description": "Successfully launched the platform, with user retention rates exceeding 80% in the first six months.",
             "outcome_img_src": "",
-            "outcome_img_alt": ""
+            "outcome_img_alt": "",
+            "container_width": "md:col-span-4"
         }
     ]
 }

@@ -15,7 +15,7 @@ interface ProjectCardType {
   tags: string[];
   href: string;
   emoji?: string;
-  containerWidth: string;
+  containerWidth?: string;
 }
 
 const ProjectCard: FC<ProjectCardType> = ({
@@ -30,7 +30,6 @@ const ProjectCard: FC<ProjectCardType> = ({
   containerWidth,
 }) => {
   const [isHovered, setIsHovered] = useState(false);
-
   return (
     <Link href={href} passHref legacyBehavior>
       <motion.a

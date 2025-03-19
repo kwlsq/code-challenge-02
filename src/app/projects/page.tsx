@@ -1,12 +1,8 @@
-"use client";
-import { useProjectContext } from "@/context/projectContext";
 import Navbar from "../components/Navbar";
 import PageHeadline from "../components/PageHeadline";
 import ProjectsContainer from "../components/ProjectsContainer";
 
 const ProjectsPage = () => {
-  const { allProjects } = useProjectContext();
-  console.log(allProjects)
   return (
     <div className="mx-5 md:mx-14">
       <Navbar />
