@@ -1,9 +1,9 @@
-import { API_BASE_URL } from "@/constants/api";
+import { API_URL } from "@/constants/api";
 import { Project } from "@/types/projectType";
 
 export const getAllProjects = async (): Promise<Project[]> => {
     try {
-        const response = await fetch(`${API_BASE_URL}/projects`, {
+        const response = await fetch(`${API_URL}/projects`, {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",
