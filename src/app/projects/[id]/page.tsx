@@ -6,10 +6,24 @@ import TagRibbon from "@/app/components/TagRibbon";
 import Image from "next/image";
 import ArticleCard from "@/app/components/ArticleCard";
 import Navbar from "@/app/components/Navbar";
+import { useEffect, useState } from "react";
 
 const ProjectDetails = () => {
+  const [isMobile, setIsMobile] = useState(false);
   const { id } = useParams();
   const { allProjects } = useProjectContext();
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    handleResize();
+
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   const project = allProjects?.find((p) => p.id.toString() === id);
 
@@ -46,7 +60,11 @@ const ProjectDetails = () => {
           <Image
             height={800}
             width={800}
-            src={project.showcase_img_src}
+            src={
+              isMobile
+                ? project.showcase_img_src_mobile
+                : project.showcase_img_src
+            }
             alt={project.showcase_img_alt}
             className="w-full object-contain md:max-h-[930px]"
           />
@@ -62,7 +80,11 @@ const ProjectDetails = () => {
           <Image
             height={800}
             width={800}
-            src={project.outcome_img_src}
+            src={
+              isMobile
+                ? project.outcome_img_src_mobile
+                : project.outcome_img_src
+            }
             alt={project.outcome_img_alt}
             className="w-full object-cover md:max-h-[930px]"
           />

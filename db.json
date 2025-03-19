@@ -21,7 +21,9 @@
             "outcome_description": "Designing a complex data visualization system that remained easy to navigate.",
             "outcome_img_src": "/img/shopease_img_2.webp",
             "outcome_img_alt": "outcome of the shopease project",
-            "container_width": "md:col-span-3"
+            "container_width": "md:col-span-3",
+            "showcase_img_src_mobile": "/img/shopease_img_1_mobile.webp",
+            "outcome_img_src_mobile": "/img/shopease_img_2_mobile.webp"
         },
         {
             "id": "2",
@@ -43,7 +45,9 @@
             "outcome_description": "Designing a complex data visualization system that remained easy to navigate.",
             "outcome_img_src": "/img/insightly_img_2.webp",
             "outcome_img_alt": "outcome of the Insightly project",
-            "container_width": "md:col-span-3"
+            "container_width": "md:col-span-3",
+            "showcase_img_src_mobile": "/img/insightly_img_1_mobile.webp",
+            "outcome_img_src_mobile": "/img/insightly_img_2_mobile.webp"
         },
         {
             "id": "3",
@@ -65,7 +69,9 @@
             "outcome_description": "Delivered a clean and intuitive design that facilitated easier financial tracking and planning for users.",
             "outcome_img_src": "/img/fintrack_img_2.webp",
             "outcome_img_alt": "outcome of fintrack project",
-            "container_width": "md:col-span-2"
+            "container_width": "md:col-span-2",
+            "showcase_img_src_mobile": "/img/fintrack_img_1_mobile.webp",
+            "outcome_img_src_mobile": "/img/fintrack_img_2_mobile.webp"
         },
         {
             "id": "4",
@@ -88,7 +94,9 @@
             "outcome_description": "Successfully launched the platform, with user retention rates exceeding 80% in the first six months.",
             "outcome_img_src": "/img/connectme_img_2.webp",
             "outcome_img_alt": "outcome of connectme project",
-            "container_width": "md:col-span-4"
+            "container_width": "md:col-span-4",
+            "showcase_img_src_mobile": "/img/connectme_img_1_mobile.webp",
+            "outcome_img_src_mobile": "/img/connectme_img_2_mobile.webp"
         }
     ]
 }
